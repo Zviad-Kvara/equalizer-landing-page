@@ -9,6 +9,7 @@ body {
   flex-direction: column;
   background-image: url("./images/bg-main-mobile.png");
   background-position-y: -19%;
+  background-position-x: -45px;
   background-repeat: no-repeat;
   font-family: "IBM Plex Sans";
   background-color: #fcfaf9;
@@ -169,7 +170,6 @@ footer {
   font-size: 16px;
   line-height: 26px;
   color: #191826;
-  min-width: 375px;
   margin-top: 32px;
   padding-right: 24px;
 }
@@ -248,7 +248,6 @@ footer {
   .buttons-div {
     margin-top: 32px;
   }
-
   footer {
     padding-left: 24px;
   }
@@ -267,6 +266,7 @@ footer {
     transform: translate(10px, -132px);
   }
 }
+
 /* ----------------------------Desktop Version------------------------------- */
 
 @media screen and (min-width: 1440px) {
@@ -334,7 +334,6 @@ footer {
     font-size: 40px;
     line-height: 52px;
   }
-
   .section-paragraph {
     font-size: 20px;
     line-height: 34px;
@@ -356,7 +355,6 @@ footer {
     cursor: pointer;
     background: #ffb964;
   }
-
   footer {
     display: flex;
     gap: 137px;
@@ -375,6 +373,16 @@ footer {
     transform: translate(0px, -50px);
   }
   .facebook-icon:hover {
+    filter: invert(56%) sepia(71%) saturate(1471%) hue-rotate(325deg)
+      brightness(100%) contrast(103%);
+    cursor: pointer;
+  }
+  .instagram-icon:hover {
+    filter: invert(56%) sepia(71%) saturate(1471%) hue-rotate(325deg)
+      brightness(100%) contrast(103%);
+    cursor: pointer;
+  }
+  .twitter-icon:hover {
     filter: invert(56%) sepia(71%) saturate(1471%) hue-rotate(325deg)
       brightness(100%) contrast(103%);
     cursor: pointer;
